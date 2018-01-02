@@ -8,7 +8,7 @@ Slash command functions for Napple Team Slack
 
 ## Copyright
 
-&copy; 2018 [Napple Team](https://github.com)
+&copy; 2018 [Napple Team](https://napple.team)
 
 ## Author
 
