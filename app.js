@@ -1,6 +1,6 @@
 const TextConverter = require('./src/text-converter.js');
 
-exports.commands = async (req, res) => {
+exports.commands = (req, res) => {
   let response = {};
   switch (req.body.command) {
     case '/nanisore':
