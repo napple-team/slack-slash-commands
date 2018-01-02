@@ -1,0 +1,12 @@
+{
+  "name": "slack-slash-commands",
+  "version": "1.0.0",
+  "description": "Slash command functions for Napple Team's Slack",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:napple-team/slack-slash-commands.git"
+  },
+  "author": "Napple Team",
+  "license": "MIT"
+}
