@@ -1,10 +1,10 @@
 # Slack Slash Commands
 
-Slash command functions for Napple Team's Slack
+Slash command functions for Napple Team Slack
 
 ## License
 
-[MITLicense](License)
+[MIT License](LICENSE)
 
 ## Copyright
 
