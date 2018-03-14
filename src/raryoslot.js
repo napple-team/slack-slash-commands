@@ -20,7 +20,7 @@ module.exports = class Raryoslot {
       ':raryosu_noface:',
       ':raryosu_rotate_y:'
     ]
-    return raryosu_emoji[Math.floor(Math.random() * raryosu_emoji)];
+    return raryosu_emoji[Math.floor(Math.random() * raryosu_emoji.length)];
   }
 
   static response() {
