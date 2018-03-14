@@ -1,4 +1,5 @@
 const TextConverter = require('./src/text-converter.js');
+const Raryoslot = require('./src/raryoslot.js');
 
 exports.commands = (req, res) => {
   let response = {};
@@ -9,6 +10,8 @@ exports.commands = (req, res) => {
     case '/nandasono':
       response = TextConverter.nandasono(req.body.text);
       break;
+    case '/raryoslot':
+      response = Raryoslot.response();
     default:
       break;
   }
