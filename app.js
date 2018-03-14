@@ -12,6 +12,7 @@ exports.commands = (req, res) => {
       break;
     case '/raryoslot':
       response = Raryoslot.response();
+      break;
     default:
       break;
   }
