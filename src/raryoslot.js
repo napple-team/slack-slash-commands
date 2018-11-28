@@ -1,6 +1,6 @@
 module.exports = class Raryoslot {
   static getRandomRaryosu() {
-    const raryosu_emoji = [
+    const raryosuEmoji = [
       ':raryosu:',
       ':raryosu_real_broken:',
       ':raryosu_rotate_fast:',
@@ -18,9 +18,9 @@ module.exports = class Raryoslot {
       ':raryosu_arhan:',
       ':raryosu_double:',
       ':raryosu_noface:',
-      ':raryosu_rotate_y:'
-    ]
-    return raryosu_emoji[Math.floor(Math.random() * raryosu_emoji.length)];
+      ':raryosu_rotate_y:',
+    ];
+    return raryosuEmoji[Math.floor(Math.random() * raryosuEmoji.length)];
   }
 
   static response() {
