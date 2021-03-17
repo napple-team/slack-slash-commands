@@ -1,0 +1,20 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  gcp:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: google-github-actions/deploy-cloud-functions@main
+        with:
+          name: slack-slask-commands
+          runtime: nodejs12
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          entry_point: commands
