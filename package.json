@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Slash command functions for Napple Team's Slack",
   "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:napple-team/slack-slash-commands.git"
@@ -10,8 +13,7 @@
   "author": "Napple Team",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint": "^7.22.0",
+    "eslint-plugin-node": "^11.1.0"
   }
 }
