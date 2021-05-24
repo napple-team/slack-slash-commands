@@ -5,11 +5,3 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: eslint
-    versions:
-    - 6.8.0
-    - 7.23.0
-  - dependency-name: eslint-plugin-import
-    versions:
-    - 2.22.1
